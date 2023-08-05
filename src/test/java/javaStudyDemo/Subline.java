@@ -1,5 +1,9 @@
 package javaStudyDemo;
 
+import org.testng.annotations.Test;
+
+import java.util.Scanner;
+
 public class Subline {
     /**
      * 1.数组的动态初始化
@@ -17,5 +21,17 @@ public class Subline {
         }
         System.out.println("总体重为"+sum);
         System.out.println("平均体重为"+sum/hens.length);
+    }
+    @Test
+    public static void subLine(){
+        double[] line = new double[5];
+        Scanner input = new Scanner(System.in);
+        for (int i = 0; i < line.length; i++) {
+            System.out.println("请输入");
+            line[i] = input.nextDouble();
+        }
+        for (int i = 0; i < line.length; i++) {
+            System.out.println("第"+i+"个数字为"+line[i]);
+        }
     }
 }
