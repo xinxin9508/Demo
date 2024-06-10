@@ -19,6 +19,7 @@ public class ForTest02 {
             }
             chance--;
             System.out.println("输入错误请重新输入，还有"+chance+"次机会");
+            System.out.println("=====");
             }
         }
     }
