@@ -1,4 +1,4 @@
-package Base;
+package Base.Encapulation;
 
 public class encapTest {
     public static void main(String[] args) {
