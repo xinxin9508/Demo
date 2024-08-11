@@ -6,8 +6,12 @@ public class Base {
     int n3 = 30;
     private int n4 = 40;
 
-    public Base(){
-        System.out.println("base构造器");
+//    public Base(){
+//        System.out.println("base构造器");
+//    }
+
+    public Base(String name,int age){
+        System.out.println("父类的有参构造器");
     }
 
     public int getN4(){
