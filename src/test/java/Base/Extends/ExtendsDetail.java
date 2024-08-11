@@ -6,6 +6,7 @@ package Base.Extends;
  * 3.super()和this()必须放在子类方法的第一行，且两者不能同时出现
  * 4.不写super()，默认存在这个方法
  * 5.super只能在构造器中使用，不能在成员方法中使用
+ * 6.继承的原理：子类继承父类，子类中调用父类的成员方法或向上查找，直到object
  */
 public class ExtendsDetail {
     public static void main(String[] args) {
