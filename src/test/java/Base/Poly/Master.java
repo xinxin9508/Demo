@@ -15,7 +15,7 @@ public class Master {
         this.name = name;
     }
 
-    public void feed(Animal animal,Food food){
-        System.out.println(name+"给"+animal.getName()+"喂"+food.getFood());
+    public void feed(Animal animal, Food food) {
+        System.out.println(name + "给" + animal.getName() + "喂" + food.getFood());
     }
 }
